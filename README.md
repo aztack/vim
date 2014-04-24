@@ -1,3 +1,9 @@
+`username@machine:~$ cd ~`
+
+`username@machine:~$ git clone https://github.com/aztack/vim.git .vim`
+
+`username@machine:~$ ln -s .vimrc .vim/.vimrc`
+
 # Markdown Vim Mode
 
 Syntax highlighting and matching rules for [Markdown](http://daringfireball.net/projects/markdown/).

@@ -1,7 +1,7 @@
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
-behave mswin
+"behave mswin
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -83,8 +83,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 
-set rtp+=$VIM/vimfiles/bundle/vundle/
-let path='$VIM/vimfiles/bundle'
+set rtp+=~/.vim/vimfiles/bundle/vundle/
+let path='~/.vim/vimfiles/bundle'
 call vundle#rc(path)
 call vundle#begin()
 
